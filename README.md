@@ -2,6 +2,8 @@
 
 This is a guide for how to issue SSL certificates on Ubuntu 16.10.
 
+Source: https://certbot.eff.org/#ubuntutyakkety-haproxy
+
 ## Issue Certificates
 
 1. Ensure ports `80` and `443` are open. `letsencrypt` client will create a temporary Web server to validate the server.
